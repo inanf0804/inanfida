@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inan Fida</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Inan Fida</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am an incoming 3rd year chemistry student looking to break into the field of tech, with previous experiences in education and marketing. Check out my projects below</p>
+        </section>
+        <h2>My Projects</h2>
+        <section id="projects"></section>
+            <div class="project-card">
+                <h3>Mindforge Academy</h3>
+                <p>Having learnt from private tutors from primary through to secondary school, then onto sixth form, and then onto being a private tutor myself, I came to the realisation that good tutors are overly expensive and cheap tutors are severely underqualified. In order to bridge this gap, I decided to launch my own tuition company, aimed at offering premium GCSE and A-Level Maths tuition 1-1 at more affordable prices; high quality tuition for affordability. </p>
+                <div class="signup-container">
+                    <h3>Signup for Mindforge Academy</h3>
+                    <form action="/submit_signup" method="POST">
+                        <label for="fullname">Full Name:</label>
+                        <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+            
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+                        <input type="submit" value = "Send">
+            </div>
+            
+            <!-- Add more projects as needed -->
+        </section>
+    </main>
+    <main>
+        <section id="projects"></section>
+            <div class="project-card">
+                <h3>Content Creator @inanfida on tiktok</h3>
+                <p>What started off as a hobby has become a part time career for me, creating content on tiktok on my own personal page, where I provide nuanced discussions over a range of topics including but not limited to education, entertainment and culture. Through mastery of SEO, I have managed to acheive over 30k+ followers, and worked with multiple brands, of which some are well known. These include Firmoo, Trainpal, Trip.com. I look to expand my exploits on social media to further build my personal brand. </p>
+                <div class="signup-container">
+                    <h3>For Business Enquiries, email inanf0804@gmail.com or send your enquiry below:</h3>
+                    <form action="/submit_signup" method="POST">
+                        <textarea name="bio" id="bio" cols = "100" rows = "5"></textarea>
+                        <input type="checkbox" id = "subscribe" name = "subscribe">   
+                        <input type="submit" value = "Send">
+            </div>
+            
+            <!-- Add more projects as needed -->
+        </section>
+    </main>
+    <footer>
+        <section id="contact"></section>
+            <p>Email: inanf0804@gmail.com</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/inan-fida-a6a232265/">My LinkedIn Profile</a></p>
+        </section>
+        <p>&copy; Inan Fida | Mindforge Academy</p>
+    </footer>
+</body>
+</html>
